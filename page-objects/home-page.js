@@ -7,7 +7,7 @@ class HomePage {
   }
   
 
-  async assertNoOpenBetsMessage() {
+  async assertUserAvtar() {
     await page.waitForSelector(this.userAvtar)
   }
 

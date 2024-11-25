@@ -16,5 +16,5 @@ Then('I login to application with {string} and {string}', async (username, passw
 })
 
 Then('I should see HomePage', async () => {
-  await homePage.assertNoOpenBetsMessage()
+  await homePage.assertUserAvtar()
 })

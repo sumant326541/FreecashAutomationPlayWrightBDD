@@ -11,6 +11,7 @@
 
 
 ## Tools And Technology
+- code editor: VS code (preferred)
 - PlayWright 
 - JavaScript
 - BDD Cucumber
