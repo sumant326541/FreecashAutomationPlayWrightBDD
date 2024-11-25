@@ -1,0 +1,22 @@
+{
+  "name": "playwright_JavaScript_Cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:stage": "NODE_ENV=stage cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json",
+    "test:prod": "NODE_ENV=prod cucumber-js --require cucumber.js --require step-definitions/**/*.js -f json:cucumber_report.json ",
+    "report": "node reporter.js"
+  },
+  "author": "Sumant Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.4.0",
+    "@playwright/test": "^1.43.1",
+    "chai": "^4.4.1",
+    "cucumber-html-reporter": "^6.0.0",
+    "mocha": "^10.6.0",
+    "playwright": "^1.45.1",
+    "prettier": "^2.6.2"
+  }
+}
